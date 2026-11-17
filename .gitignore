@@ -36,3 +36,8 @@ dist/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+# Real workout exports
+/data/private/
+
+# Local Power BI reports
+/reports/local/

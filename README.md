@@ -15,6 +15,6 @@ Real workout data and credentials must stay local and private. Use synthetic dat
 
 - [Database selection (ADR-001)](docs/decisions/adr-001-database-selection.md)
 - [Dashboard tool selection](docs/decisions/dashboard-tool-selection.md)
-- [V2 acceptance checklist](docs/v2-acceptance-checklist.md)
+- [V2 acceptance checklist](docs/definition-of-done.md)
 
 The checklist defines 33 approved cases. Its existing execution status is **Not run for every case below**; approved expectations are not passing test results. Implementation, database setup, report creation, and CI require separately approved work.

@@ -4,7 +4,7 @@
 
 - Work on one approved issue at a time. Follow its requirements and stay within its scope.
 - Use this V2 repository only. Do not access V1 or search for another repository unless the owner explicitly authorizes it.
-- Verify the repository location, expected branch, and origin before editing. Use `git -C "C:/Users/Lauro Gime/Documents/Data Engineering/Projects/gym-data-pipeline-v2"` for every Git command and absolute paths under that root for file access.
+- Before editing, verify the V2 workspace root, expected branch, and origin. Use `git -C "<verified V2 root>"` for Git commands and resolve file paths only within that root. If you cannot verify the root, stop and ask the owner. Do not search outside the workspace.
 - Approved technology decisions are not authorization to install tools or implement a pipeline, database, dashboard, or CI. Obtain scope through a separately approved issue.
 
 ## Data and secrets
