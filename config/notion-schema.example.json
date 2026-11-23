@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "exercise_entries": {
+      "database_id": "11111111-1111-4111-8111-111111111101",
+      "data_source_id": "11111111-1111-4111-8111-111111111102",
+      "properties": {
+        "workout_log": { "id": "fake_ee_workout_log", "type": "relation" },
+        "exercise": { "id": "fake_ee_exercise", "type": "relation" },
+        "set_1_weight": { "id": "fake_ee_set_1_weight", "type": "number" },
+        "set_1_reps": { "id": "fake_ee_set_1_reps", "type": "number" },
+        "set_2_weight": { "id": "fake_ee_set_2_weight", "type": "number" },
+        "set_2_reps": { "id": "fake_ee_set_2_reps", "type": "number" },
+        "set_3_weight": { "id": "fake_ee_set_3_weight", "type": "number" },
+        "set_3_reps": { "id": "fake_ee_set_3_reps", "type": "number" },
+        "created_time": { "id": "fake_ee_created_time", "type": "created_time" },
+        "completed": { "id": "fake_ee_completed", "type": "checkbox" },
+        "treadmill_km": { "id": "fake_ee_treadmill_km", "type": "number" }
+      }
+    },
+    "workout_log": {
+      "database_id": "22222222-2222-4222-8222-222222222201",
+      "data_source_id": "22222222-2222-4222-8222-222222222202",
+      "properties": {
+        "session_name": { "id": "fake_wl_session_name", "type": "title" },
+        "created_time": { "id": "fake_wl_created_time", "type": "created_time" }
+      }
+    },
+    "exercise": {
+      "database_id": "33333333-3333-4333-8333-333333333301",
+      "data_source_id": "33333333-3333-4333-8333-333333333302",
+      "properties": {
+        "exercise_name": { "id": "fake_ex_exercise_name", "type": "title" }
+      }
+    }
+  }
+}
